@@ -1,12 +1,17 @@
 # Summoner
 
-
-![preview](https://i.imgur.com/SJ2rmW7.gif)
-
+![screen](https://i.imgur.com/wr9H5RO.png)
 ## About
+
+Have X amount of dedicated desktops that you manually set up before working? Its a pain. Summoner kills all your GUI apps, and respawns on your assigned desktops, all automagically.
 
 A Quick-and-dirty Spaces (Multiple Desktop) State Saver / Restorer for whatever your needs might be. Written as an Electron Tray App wrapping a shell script.
 Configurations are stored as text files, so you can save / load as you need. Workspace set up for work, fun, etc.
+
+## Example
+
+![preview](https://i.imgur.com/S25vWCq.gif)
+
 
 **BETA NOTICE: This is a super rough rendition. Currently there is no prod build even. Stay tuned.**
 ## Before Running
