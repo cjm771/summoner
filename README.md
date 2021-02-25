@@ -10,6 +10,10 @@ Configurations are stored as text files, so you can save / load as you need. Wor
 
 **BETA NOTICE: This is a super rough rendition. Currently there is no prod build even. Stay tuned.**
 
+
+## How it Works
+
+Basically becuase the Spaces API is not exposed, the way this is achieved is by closing all applications. then going to the workspace (via keyboard shortcut), waiting, and opening the application. Without the keyboard shortcut, this would not work.
 ## Example
 Creating a new 'spell' which populates Desktop 1, 2, 3 with Mail, Calendar, and Notes.
 
