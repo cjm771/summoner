@@ -6,13 +6,28 @@
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
     <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
     <title>Hello World!</title>
+     <link rel="stylesheet" type="text/css" href="./styles.css">
   </head>
   <body>
-    <h1>Hello World!</h1>
-    We are using Node.js <span id="node-version"></span>,
-    Chromium <span id="chrome-version"></span>,
-    and Electron <span id="electron-version"></span>.
+    <div class="instructions">
+      Enter your spell below, should match the following format, where number is desktop num. You can have multiple apps per line.
+      <pre>
+#1
+/System/Applications/Mail.app/
 
+#2
+/System/Applications/Calendar.app/
+
+#3
+/System/Applications/Notes.app/
+      </pre>
+    </div>
+    <textarea>
+    </textarea>
+    <div class="actions">
+      <button class="secondary">Cancel</button>
+      <button class="primary">Save</buutton>
+    </div>
     <!-- You can also require other files to run in this process -->
     <script src="./renderer.js"></script>
   </body>
