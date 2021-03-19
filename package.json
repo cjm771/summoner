@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "electron-multi-prompt": "^1.0.5",
-    "electron-prompt": "^1.6.1"
+    "electron-prompt": "^1.6.2"
   },
   "build": {
     "appId": "com.chrismalcolm.summoner",
